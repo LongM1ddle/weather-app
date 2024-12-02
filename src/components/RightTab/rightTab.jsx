@@ -1,5 +1,6 @@
 import thermometerIcon from "../../assets/thermometer.svg"
 import { useState } from "react";
+import windIcon from "../../assets/wind.svg"
 
 export const RightTab = ({weatherData, setCityHandle}) => {
     const [inputValue, setInputValue] = useState("");
@@ -28,22 +29,15 @@ export const RightTab = ({weatherData, setCityHandle}) => {
                     <img src={thermometerIcon}></img>
                     <div className="air-condition-text">
                     <p className="air-upper-text">Real Feel</p> 
-                    <p>{weatherData?.main?.feels_like || "---"}</p>
+                    <p>{weatherData?.main?.feels_like || "---"}°</p>
                     </div>
                 </div>
             </div>
                 <div className="air-condition">
-                    <img src={thermometerIcon}></img>
+                    <img src={windIcon}></img>
                     <div className="air-condition-text">
                     <p className="air-upper-text">Wind</p> 
                     <p>{weatherData?.wind?.speed || "---"} km/hr</p>
-                    </div>
-                </div>
-                <div className="air-condition">
-                    <img src={thermometerIcon}></img>
-                    <div className="air-condition-text">
-                    <p className="air-upper-text">Chance of rain</p> 
-                    <p>{weatherData?.wind?.speed || "---"} %</p>
                     </div>
                 </div>
             </div>
