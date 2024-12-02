@@ -5,7 +5,6 @@ import location from "../../assets/location.svg";
 import arrow from "../../assets/arrow.svg";
 import weatherImg from "../../assets/weather-icon.svg";
 import { Navigation } from "../Navigation/navigation";
-import { RightTab } from "../RightTab/rightTab";
 
 export const WeatherPage = () => {
   

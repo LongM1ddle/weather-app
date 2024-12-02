@@ -5,7 +5,7 @@ import navigationIcon from "../../assets/navigation-icon.svg";
 import locationIcon from "../../assets/location.svg";
 import settingsIcon from "../../assets/settings-icon.svg";
 
-export const LeftTab = () => {
+export const LeftTab1 = () => {
   return (
     <div className="leftTab">
       <div className="profile-picture">
