@@ -11,7 +11,7 @@ export const ActivitesTab = ({setCityHandle}) => {
       </div>
       <div className="city-list-container">
         <div className="city" onClick={()=>{
-          setCityHandle("Bishek")
+          setCityHandle("Bishkek")
         }}>
           <img src="https://avatars.mds.yandex.net/i?id=e1a47378c954924f8901d27b159817d1_l-8281979-images-thumbs&n=13"></img>
           <p>Bishkek</p>
