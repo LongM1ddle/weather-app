@@ -12,7 +12,7 @@ export const LeftTab1 = () => {
         <Link to="">
           <img
             title="Профиль"
-            src="https://cdn.discordapp.com/attachments/1159160399397126245/1309533891656286218/n2dlcr6ublzd1.gif?ex=674f1cf9&is=674dcb79&hm=c9ccb853a6802233d0f1da1c434538649060ff14bcadfa18f92c94401cea04c1&"
+            src="https://cdn.discordapp.com/attachments/1159160399397126245/1309533891656286218/n2dlcr6ublzd1.gif?ex=6753ba39&is=675268b9&hm=632716ec4a73240fbea35a14648ecc216333048efd5b3d143a43a062054e4dcb&"
           ></img>
         </Link>
       </div>
